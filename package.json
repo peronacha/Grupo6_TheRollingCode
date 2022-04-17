@@ -1,0 +1,23 @@
+{
+  "name": "the-rolling-code",
+  "version": "1.0.0",
+  "description": "Hola Rolling Code´s, este es el primer sprint pero incompleto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peronacha/Grupo6_TheRollingCode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peronacha/Grupo6_TheRollingCode/issues"
+  },
+  "homepage": "https://github.com/peronacha/Grupo6_TheRollingCode#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
