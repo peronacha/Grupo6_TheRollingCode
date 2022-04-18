@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+*{
+    font-family: 'Barlow Condensed', sans-serif;
+box-sizing: border-box; 
+padding: 0; 
+font-size: 1.02em;
+margin-left: auto; 
+margin-right: auto;
+}
+/* Header en celu y tablet */
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 30%;
+}
+header{
+    background-color: rgba(0,0,0,0.9);
+    color:#ffffff;
+}
+header section{
+    text-align: center;
+}
+
+/* slider */
+
+.slider{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 20px auto 20px;
+    grid-template-rows: 400px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .slider button {
+    height: 30%;
+    border-radius: 3px;
+    padding: 2%;
+  }
+  .slider img {
+    width: 100%;
+    height: 100%;
+  }
+  .cuadroSliderOculto{
+    display: none;
+  }
+  .slider button {
+    border:1px solid grey;
+   outline: none;
+     box-shadow:-2px 2px #999;
+ }
+ button:active{
+     transform: translateY(1px);
+ }
+
+/* Main en celu */
+.nosotros__titulo{
+   text-align: center;
+   margin-top: 9%;
+   margin-bottom: -7%;
+}
+.nosotros__articulos{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 70%;
+}
+
+
+/* Visualización header en compu */
+@media only screen and (min-width: 768px)  {
+    *{
+    font-size: 1.02em;
+    }
+header{
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+   text-align: center;
+}
+header section{
+    width:40%;
+    margin-left: 0;
+ }
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end
+ }
+ ul li{
+    margin: 2%;
+ }
+nav{
+    display: flex;
+    margin-left: auto;
+}
+}

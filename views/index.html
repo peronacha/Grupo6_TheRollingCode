@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/js/script.js">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+<section>
+<img src="/public/img/logo.png" alt="logo">
+</section>
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>Productos</li>
+        <li>Nosotros</li>
+        <li>Novedades</li>
+        <li><i class="fa-solid fa-cart-shopping"></i></li>
+        <li>User</li>
+    </ul>
+</nav>
+    </header>
+    <main>
+
+        <section class="slider">
+            <button onclick="mostrarAnterior()">&#10094;</button>
+           <div class="galeriaSlider">
+             <div class="cuadroSliderVisible">
+                <img src="/public/img/pantalla.png" alt="logo">                 
+             
+             </div>
+             <div class="cuadroSliderOculto">
+                <img src="/public/img/tienda.jpg" alt="logo">
+          
+           </div>
+             <div class="cuadroSliderOculto">
+                <img src="/public/img/pcgamer.jpg" alt="logo">
+            
+         </div>
+        </div>
+           <button onclick="mostrarSiguiente()">&#10095;</button>
+       </section>
+
+       <section class="nosotros">
+           <div class="nosotros__titulo">
+
+            <h2>¿Por qué elegir Dragon Tech?</h2>
+        </div>
+        <div class="nosotros__articulos">
+            <article>
+    <i class="fa-solid fa-truck-bolt"></i> <p>Envío sin cargo</p>
+</article>
+
+<article>
+    <i class="fa-solid fa-file-certificate"></i>
+    <p>Garantía de Fábrica</p>
+</article>
+
+<article>
+    <i class="fa-solid fa-messages-question"></i> <p>Soporte en línea gratuito</p>
+
+</article>
+</div>
+       </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        var numeroCuadroActual = 0;
+var usandoBotones = false;
+
+function mostrarAnterior(){
+  mostrarCuadroNumero(numeroCuadroActual-1);
+}
+function mostrarSiguiente(){
+  mostrarCuadroNumero(numeroCuadroActual+1);
+}
+
+function pausarAnimacion(){
+  usandoBotones=true;
+}
+
+function reactivarAnimacion(){
+  usandoBotones=false;
+}
+
+function autoAnimarSlider(){
+  setInterval(function(){if(!usandoBotones){mostrarSiguiente()}}, 2000);
+}
+
+function mostrarCuadroNumero(numeroIndicado) {
+
+  var elementosCuadros = document.querySelectorAll(".cuadroSliderOculto, .cuadroSliderVisible");
+  var cantidadCuadros = elementosCuadros.length;
+
+  if (numeroIndicado >= cantidadCuadros){
+    numeroCuadroActual = 0; // Si se pasa, lo reinicia
+  } else if (numeroIndicado < 0){
+    numeroCuadroActual = cantidadCuadros; // Si pasa del primero hacia atrás, toma el último.
+  } else{
+    numeroCuadroActual = numeroIndicado;
+  }
+
+  for (cuadro of elementosCuadros) {
+      cuadro.classList.remove("cuadroSliderVisible");
+      cuadro.classList.add("cuadroSliderOculto");
+  }
+  elementosCuadros[numeroCuadroActual].classList.remove("cuadroSliderOculto");
+  elementosCuadros[numeroCuadroActual].classList.add("cuadroSliderVisible");
+}
+    </script>
+</body>
+</html>
