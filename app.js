@@ -7,6 +7,7 @@ app.use(express.static(__dirname + "/public"));
 app.listen(port, () => {
   console.log("Levantando un servidor con Express")
 });
+
 app.get("/", (req,res)=>{
     res.sendFile(__dirname + "/views/index.html")
 })
