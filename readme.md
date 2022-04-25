@@ -3,6 +3,21 @@ Se trata de un Marketplace, que tiene como objetivo la venta de auriculares para
 Público / Target : Fanáticos de los videojuegos, una audiencia  compuesta casi por completo por miembros de la generación Z. Este será nuestro target primario, aunque en los últimos años, el universo del público abocado a los videojuegos se ubica entre los 15 y 35 años.
 
 
+Demo
+If you want to see the demo of this proyect deployed, you can visit Demo of the proyect
+
+
+How to clone
+If you have special requirements, you have to list it step by step.
+
+
+Installation
+To install and run this proyect just type and execute
+
+
+Preview
+Insert here an image of the preview if your project has one. The image can be into the project, you have to indicate the route and look like this.
+
 
 
 Autores
