@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/js/script.js">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+<section>
+<img src="/public/img/logo.png" alt="logo">
+</section>
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>Productos</li>
+        <li>Nosotros</li>
+        <li>Novedades</li>
+        <li><i class="fa-solid fa-cart-shopping"></i></li>
+        <li>User</li>
+    </ul>
+</nav>
+    </header>
+    <main>
+<section class="register-form">
+    <form action="/" method="POST">
+        <div class="control-formulario"> 
+            <ul class="flex-outer">
+                <li type="none">
+                <label class="label" for="Datos-usuario">Datos Usuario</label>
+        </div>        
+        <div class="control-formulario">
+                <input type="text" name="name" required placeholder="Nombre">
+        </div>
+        <div class="control-formulario">
+                <input class="right-apellido" type="text" name="name" required placeholder="Apellido">
+        </div>
+        <div class="control-formulario">
+                <input type="number" name="Documento" required placeholder="Documento">
+        </div>
+        <div class="control-formulario">
+                <select class="right-tipoDocumento" required name="Documento">
+                    <option value="DNI" selected>DNI</option>
+                    <option value="Otros" selected>Otros</option>
+                </select>
+        </div>
+        <div class="control-formulario">
+                <input type="number" name="telephone" required placeholder="Telefono">
+        </div>
+        <div class="control-formulario">
+                <input class="right-email" type="email" name="email" required placeholder="Email">
+        </div>
+                </li>
+            </ul>
+        <br>
+
+        <ul class="flex-outer">
+            <li type="none"></li>
+    <div class="control-formulario">
+                <label for="Datos-envio">Datos de Envío</label>
+    </div>      
+    <div class="control-formulario">      
+                <input type="texto" name="Calle" required placeholder="Calle">
+    </div>
+    <div class="control-formulario">
+                <input type="number" name="adress" required placeholder="Numero">
+    </div>
+    <div class="control-formulario">
+                <input type="number" name="Piso" placeholder="Piso">
+    </div>
+    <div class="control-formulario">
+                <input type="texto" name="Depto" placeholder="Depto">
+    </div>
+    <div class="control-formulario">
+                <input type="texto" name="Postal" required placeholder="Codigo Postal">
+    </div>
+    <div class="control-formulario">
+                <input type="texto" name="Ciudad" required placeholder="Ciudad">
+    </div>
+    <div class="control-formulario">
+                <input type="texto" name="Provincia" required placeholder="Provincia">
+    </div>  
+            </li>
+        </ul>
+                <button class="bottom-register" type="submit">Crear Usuario</button>
+</section>                
+    </main>

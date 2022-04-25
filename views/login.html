@@ -1,0 +1,46 @@
+LOGIN
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/js/script.js">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+<section>
+<img src="/public/img/logo.png" alt="logo">
+</section>
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>Productos</li>
+        <li>Nosotros</li>
+        <li>Novedades</li>
+        <li><i class="fa-solid fa-cart-shopping"></i></li>
+        <li>User</li>
+    </ul>
+</nav>
+    </header>
+    <main>
+<section class="login-form">
+  <h2>Login</h2>
+  <form action="/" method="POST">
+      <div>
+          <input type="text" name="user" name="email" required placeholder="USUARIO / EMAIL">
+      </div>>
+      <div>
+          <input type="password" pattern=".{6,}" name="password" required placeholder="PASS / CLAVE">
+      </div>>
+      <div>      
+          <button class="bottom-login" type="submit">Ingresar</button>  
+      </div>
+      <div>      
+          <button class="bottom-nuevo-usuario" type="submit">Registrarse</button>
+      </div>  
+</section>          
+    </main>
