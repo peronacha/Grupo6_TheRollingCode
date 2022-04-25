@@ -10,3 +10,7 @@ app.listen(port, () => {
 app.get("/", (req,res)=>{
     res.sendFile(__dirname + "/views/index.html")
 })
+
+app.get("/productDetail", (req,res)=>{
+  res.sendFile(__dirname + "/views/productDetail.html")
+})
