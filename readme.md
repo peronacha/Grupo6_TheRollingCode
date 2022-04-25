@@ -8,15 +8,11 @@ Público / Target : Fanáticos de los videojuegos, una audiencia  compuesta casi
 
 
 ## Nuestro arte visual
-<img src="/public/img/pantalla.png"/>
-<img src="/public/img/pcgamer.png"/>
-<img src="/public/img/tienda.png"/>
+<img src="/public/img/pcgamer.jpg"/>
 
 
 ## Nuestros productos
-<img src="/public/img/auri1.jpg"/>
 <img src="/public/img/auri2.jpg"/>
-<img src="/public/img/auri3.jpg"/>
 
 
 ## Nuestra Home
