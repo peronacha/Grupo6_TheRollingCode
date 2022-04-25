@@ -103,3 +103,182 @@ nav{
     margin-left: auto;
 }
 }
+
+/*----------------------------------------------------------------------------*/
+
+
+/*Product Detal*/
+
+/*Main - Detalle de Producto*/
+
+/*Seccion Gral - contiene 4 cajas (imagenes, descripcion, especificaciones y promociones*/
+
+.contenedor-gral {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+
+}
+
+/*Seccion Imagenes*/
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    /*border: solid 1px var(--gris-claro);*/
+    width: 90vw;
+    margin: 5px;
+    
+}
+
+.imagenes .img-mini{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 30%;
+
+}
+
+.imagenes .img-mini img {
+    border: solid 1px var(--gris-claro);
+    margin: 5px;
+    width: 65%;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.imagenes .img-grande{
+    border: solid 1px var(--gris-claro);
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 60%;
+}
+
+.imagenes .img-grande img {
+    width: 80%;
+}
+
+/*Seccion Descripcion*/
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    /*border: solid 1px var(--gris-claro);*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    margin: 5px;
+}
+
+.descripcion h2 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.descripcion-precio {
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+
+
+.agregar-carrito input {
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--violeta);
+    border: var(--violeta) solid 1px;
+    border-radius: 5px;
+}
+
+.descripcion-info {
+    padding-top: 15px;
+}
+
+.descripcion ul {
+    display: flex;
+    flex-direction: column;
+    
+    list-style: none;
+    font-weight: bold;
+}
+
+/*Seccion Especificaciones*/
+
+.especificaciones {
+    
+    padding: 10px;
+    border: solid 1px var(--gris-claro);
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/*Seccion Promociones*/
+
+.promociones {
+    /* display: none;  (Quitar esta sección?) */
+    font-weight: bold;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px var(--gris-claro);
+    width: 90vw;
+    margin: 5px;
+    
+}
+
+
+
+/*Medias - Detalle de Producto*/
+
+/*Tablets*/
+
+@media only screen and (min-width: 768px)  {
+    
+
+    /*Main*/
+    /*Ajustando alto y ancho para que se vean de a dos cuadros por linea*/
+    
+    .imagenes,
+    .especificaciones {
+        width: 50vw;
+    }
+
+    .descripcion,
+    .promociones {
+        width: 40vw;
+    }
+
+}
+
+/*Desktop*/
+@media only screen and (min-width: 992px) {
+    
+
+    }
+    
+/*Huge*/
+@media only screen and (min-width: 1280px) {
+    
+
+    }
