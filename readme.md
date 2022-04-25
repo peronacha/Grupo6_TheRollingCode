@@ -1,26 +1,26 @@
-DRAGON TECH, by The Rolling Code´s 
+# DRAGON TECH, by The Rolling Code´s 
 Se trata de un Marketplace, que tiene como objetivo la venta de auriculares para gamers. Será un solo tipo de producto pero con diversos modelos del mismo producto.
 Público / Target : Fanáticos de los videojuegos, una audiencia  compuesta casi por completo por miembros de la generación Z. Este será nuestro target primario, aunque en los últimos años, el universo del público abocado a los videojuegos se ubica entre los 15 y 35 años.
 
 
-Demo
+# Demo
 If you want to see the demo of this proyect deployed, you can visit Demo of the proyect
 
 
-How to clone
+# How to clone
 If you have special requirements, you have to list it step by step.
 
 
-Installation
+# Installation
 To install and run this proyect just type and execute
 
 
-Preview
+# Preview
 Insert here an image of the preview if your project has one. The image can be into the project, you have to indicate the route and look like this.
 
 
 
-Autores
+# Autores
 Gise Mosqueira
 Licenciada y Profesora en Ciencias de la Educación de la UBA. Muy fan de la programación, la educación a distancia y las herramientas digitales. Actualmente trabaja en Digital House como Diseñadora de contenidos y recursos educativos para el equipo de escuelas
 
