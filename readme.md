@@ -3,21 +3,28 @@ Se trata de un Marketplace, que tiene como objetivo la venta de auriculares para
 Público / Target : Fanáticos de los videojuegos, una audiencia  compuesta casi por completo por miembros de la generación Z. Este será nuestro target primario, aunque en los últimos años, el universo del público abocado a los videojuegos se ubica entre los 15 y 35 años.
 
 
-## Demo
+## Nuestra imagen
 <img src="/public/img/logo.png"/>
 
 
-## How to clone
-If you have special requirements, you have to list it step by step.
+## Nuestro arte visual
+<img src="/public/img/pantalla.png"/>
+<img src="/public/img/pcgamer.png"/>
+<img src="/public/img/tienda.png"/>
 
 
-## Installation
-To install and run this proyect just type and execute
+## Nuestros productos
+<img src="/public/img/auri1.jpg"/>
+<img src="/public/img/auri2.jpg"/>
+<img src="/public/img/auri3.jpg"/>
 
 
-## Preview
-Insert here an image of the preview if your project has one. The image can be into the project, you have to indicate the route and look like this.
+## Nuestra Home
+<img src="/public/img/home.jpg"/>
 
+
+## Nuestro repo
+https://github.com/peronacha/Grupo6_TheRollingCode
 
 
 ## Autores
