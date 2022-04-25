@@ -19,6 +19,16 @@ Público / Target : Fanáticos de los videojuegos, una audiencia  compuesta casi
 <img src="/public/img/home.jpg"/>
 
 
+## Benchmarking
+1- T-Dagger | Audio
+
+2-https://www.malditohard.com.ar/?gclid=CjwKCAjwiuuRBhBvEiwAFXKaNG5E4qdHvgblf_6A9NiXAfkNTaY3so4w4DTMKiA0_rhVCKRk676vtxoCXD8QAvD_BwE
+
+3-https://www.jbl.com.ar/headset-gamer?utm_source=google&utm_medium=cpc&utm_campaign=LanzamientoWeb_Google_Performance-Gamer&utm_term=Performance_Gamer&utm_content=Gamer&gclid=CjwKCAjwiuuRBhBvEiwAFXKaNGvSVUsIUfvehzk-oLSASX1nEIAaziSmgVVAYSlsJhtk8nkaT4GBoxoCCvMQAvD_BwE
+
+4-https://compragamer.com/?seccion=3&cate=8&nro_max=50&gclid=CjwKCAjwiuuRBhBvEiwAFXKaNOhpAM65ZEL_H6ZC1lsx7VU2RStGzEsLDvSQgtOEQzJZznBPCFPqcBoCth0QAvD_BwE
+
+
 ## Nuestro repo
 https://github.com/peronacha/Grupo6_TheRollingCode
 
