@@ -85,13 +85,16 @@
         
     }
 
+    .header-nav ul li a i {
+        font-size: 0.8em;
+    }
     
     .fa-cart-shopping {
         color: var(--verde);
     }
 
     .fa-user {
-        border: solid 2px var(--lila);
+        border: solid 1px var(--lila);
         padding: 15px;
         border-radius: 50%;
     }
