@@ -256,7 +256,6 @@
 
 /*LOGIN*/
 
-
 .login-form {
     margin-top: 30px;
     border: var(--lila) solid 2px;
@@ -287,3 +286,8 @@
     font-weight: bold;
 }
 
+@media only screen and (min-width: 768px) {
+    .login-form {
+        width: 50%;
+    }
+}

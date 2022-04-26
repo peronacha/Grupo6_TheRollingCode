@@ -38,7 +38,7 @@
 
 .menu-burger {
     margin-right: 30px;
-    border: var(--lila) solid 2px;
+    border: var(--lila) solid 1px;
     color: #fff;
     padding: 5px;
 }
