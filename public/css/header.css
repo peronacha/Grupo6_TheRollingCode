@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
+:root {
+    --lila: rgb(211, 79, 253);
+    --verde: rgb(30, 253, 64);
+}
+
+*{
+    font-family: 'Barlow Condensed', sans-serif;
+    box-sizing: border-box; 
+    padding: 0; 
+    font-size: 1.02em;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/* HEADER*/
+
+.header-box {
+    background-color: rgba(0,0,0,0.9);
+    color:#ffffff;
+    border-bottom: solid 4px var(--lila);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-box img{
+    width: 35%;
+    margin: 0;
+}
+
+/*oculto el nav para darle lugar al menu hamburguesa*/
+.header-nav {
+    display: none;
+}
+
+.menu-burger {
+    margin-right: 30px;
+    border: var(--lila) solid 2px;
+    color: #fff;
+    padding: 5px;
+}
+
+/*Media header*/
+
+@media only screen and (min-width: 480px) {
+    .header-box img {
+        width: 25%;
+    }
+}
+@media only screen and (min-width: 768px) {
+
+
+    .header-box img {
+        width: 15%;
+    }
+    /*desactivo el menu-burger*/
+    .header-box .menu-burger {
+        display: none;
+    }
+    /*activo el nav*/
+    .header-nav {
+        display: block;
+        margin-right: 5px;
+    }
+
+    
+    .header-nav ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-nav ul li {
+        padding-right: 20px;
+    }
+
+    .header-nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        
+    }
+
+    
+    .fa-cart-shopping {
+        color: var(--verde);
+    }
+
+    .fa-user {
+        border: solid 2px var(--lila);
+        padding: 15px;
+        border-radius: 50%;
+    }
+
+}
