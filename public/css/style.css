@@ -291,3 +291,40 @@
         width: 50%;
     }
 }
+
+
+/*--------------------------------------------------------------*/
+
+/*REGISTER*/
+
+.register-form {
+    margin-top: 30px;
+    border: var(--lila) solid 2px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+
+.register-form form button {
+    margin: 10px;
+    width: 90%;
+    background-color: var(--lila);
+    border: none;
+    padding: 4px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+    .register-form {
+        width: 50%;
+    }
+}
