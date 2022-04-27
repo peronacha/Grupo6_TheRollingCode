@@ -3,7 +3,7 @@ const path = require("path")
 const app = express();
 const port = 3000;
 
-app.use('/static', express.static(__dirname + "/public"));
+app.use(express.static("public"));
 
 app.listen(process.env.PORT || port, () => {
   console.log("Levantando un servidor con Express")
