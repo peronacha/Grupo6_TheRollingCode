@@ -340,3 +340,105 @@
         width: 50%;
     }
 }
+
+/*--------------------------------------------------------------*/
+/*CARRITO visualización celu*/
+.productosCarrito_seleccion {
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 70%;
+   }
+.productosCarrito_seleccion_img{
+    width: 30%;
+    text-align: center;
+}
+.productosCarrito_seleccion_img img{
+    width:80%;
+    height: auto;
+}
+.productosCarrito_seleccion_descripcion{
+    text-align: center;
+    margin-top: -20px;
+;
+}
+.productosCarrito_seleccion_cantidad{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -40px;
+}
+.productosCarrito_seleccion_monto{
+     margin-top: -40px;
+}
+.productosCarrito_seleccion_cantidad span{
+    padding:5%;
+}
+.productosCarrito_totalCompra{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.productosCarrito_totalCompra button{
+    color: var(--violeta);
+    border: var(--violeta) solid 1px;
+    padding:1%;
+}
+.productosRecomendados_imagenes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ padding: 4px;
+}
+.productosRecomendados_imagenes img{
+    width:30%;
+    border: solid 1px #000;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.productosRecomendados_titulo{
+    margin-left: 2%;
+}
+/*CARRITO visualización compu*/
+@media only screen and (min-width: 992px){
+.productosCarrito_seleccion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 70%;
+}
+.productosCarrito_seleccion_img{
+    width: 20%;
+    text-align: center;
+}
+.productosCarrito_seleccion_img img{
+    width:50%;
+    height: auto;
+}
+.productosCarrito_seleccion_cantidad{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productosCarrito_seleccion_cantidad span{
+    padding:3%;
+}
+.productosCarrito_totalCompra{
+    width: 50%;
+      margin-left: 53%;
+}
+.productosCarrito_totalCompra span{
+    margin-left: -40%;
+}
+.productosRecomendados_titulo{
+    margin-left: 26%;
+}
+.productosRecomendados_imagenes{
+    width: 50%;
+}
+}
+
